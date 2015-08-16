@@ -399,17 +399,17 @@ Copyright &copy; 2015. The [Compute.io](https://github.com/compute-io) Authors.
 [npm-image]: http://img.shields.io/npm/v/compute-matrix-number-function.svg
 [npm-url]: https://npmjs.org/package/compute-matrix-number-function
 
-[travis-image]: http://img.shields.io/travis/compute-io/matrix-function/master.svg
-[travis-url]: https://travis-ci.org/compute-io/matrix-function
+[travis-image]: http://img.shields.io/travis/compute-io/matrix-number-function/master.svg
+[travis-url]: https://travis-ci.org/compute-io/matrix-number-function
 
-[codecov-image]: https://img.shields.io/codecov/c/github/compute-io/matrix-function/master.svg
-[codecov-url]: https://codecov.io/github/compute-io/matrix-function?branch=master
+[codecov-image]: https://img.shields.io/codecov/c/github/compute-io/matrix-number-function/master.svg
+[codecov-url]: https://codecov.io/github/compute-io/matrix-number-function?branch=master
 
-[dependencies-image]: http://img.shields.io/david/compute-io/matrix-function.svg
-[dependencies-url]: https://david-dm.org/compute-io/matrix-function
+[dependencies-image]: http://img.shields.io/david/compute-io/matrix-number-function.svg
+[dependencies-url]: https://david-dm.org/compute-io/matrix-number-function
 
-[dev-dependencies-image]: http://img.shields.io/david/dev/compute-io/matrix-function.svg
-[dev-dependencies-url]: https://david-dm.org/dev/compute-io/matrix-function
+[dev-dependencies-image]: http://img.shields.io/david/dev/compute-io/matrix-number-function.svg
+[dev-dependencies-url]: https://david-dm.org/dev/compute-io/matrix-number-function
 
-[github-issues-image]: http://img.shields.io/github/issues/compute-io/matrix-function.svg
-[github-issues-url]: https://github.com/compute-io/matrix-function/issues
+[github-issues-image]: http://img.shields.io/github/issues/compute-io/matrix-number-function.svg
+[github-issues-url]: https://github.com/compute-io/matrix-number-function/issues
