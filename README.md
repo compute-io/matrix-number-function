@@ -106,7 +106,7 @@ The main exported `function` does __not__ make any assumptions regarding the num
 <a name="matrixfun-factory"></a>
 #### matrixfun.factory( [fcn,] types[, options] )
 
-Creates an apply `function` to apply a `function` to each [`matrix`](https://github.com/dstructs/matrix) element.
+Creates an apply `function` to apply a `function` to each [`matrix`](https://github.com/dstructs/matrix) element. The `types` argument defines the input argument types (either [`'matrix'`](https://github.com/dstructs/matrix) or `'number'`).
 
 ``` javascript
 var mfun = matrixfun.factory( ['matrix','number'] );
