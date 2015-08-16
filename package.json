@@ -1,0 +1,62 @@
+{
+  "name": "compute-matrix-number-function",
+  "version": "0.0.0",
+  "description": "Applies a function to each matrix element by broadcasting numeric arguments.",
+  "author": {
+    "name": "Athan Reines",
+    "email": "kgryte@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Athan Reines",
+      "email": "kgryte@gmail.com"
+    }
+  ],
+  "scripts": {
+    "test": "mocha",
+    "test-cov": "istanbul cover ./node_modules/.bin/_mocha --dir ./reports/coverage -- -R spec",
+    "codecov": "istanbul cover ./node_modules/.bin/_mocha --dir ./reports/codecov/coverage --report lcovonly -- -R spec && cat ./reports/codecov/coverage/lcov.info | codecov && rm -rf ./reports/codecov"
+  },
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/compute-io/matrix-number-function.git"
+  },
+  "keywords": [
+    "compute.io",
+    "compute",
+    "computation",
+    "utility",
+    "util",
+    "matrices",
+    "matrix",
+    "number",
+    "numeric",
+    "dstructs",
+    "element-wise",
+    "apply",
+    "function"
+  ],
+  "bugs": {
+    "url": "https://github.com/compute-io/matrix-number-function/issues"
+  },
+  "dependencies": {
+    "dstructs-matrix": "^2.0.0",
+    "validate.io-boolean-primitive": "^1.0.0",
+    "validate.io-function": "^1.0.2",
+    "validate.io-matrix-like": "^1.0.2",
+    "validate.io-number-primitive": "^1.0.0",
+    "validate.io-object": "^1.0.4",
+    "validate.io-positive-integer": "^1.0.0",
+    "validate.io-string-primitive": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "3.x.x",
+    "codecov.io": "^0.1.5",
+    "istanbul": "^0.3.0",
+    "jshint": "2.x.x",
+    "jshint-stylish": "2.x.x",
+    "mocha": "2.x.x"
+  },
+  "license": "MIT"
+}
