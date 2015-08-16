@@ -194,7 +194,7 @@ To facilitate using [`matrix`](https://github.com/dstructs/matrix) functions wit
 
 #### matrixfun.create( [fcn,] types )
 
-Creates an apply `function` to apply a `function` to each [`matrix`](https://github.com/dstructs/matrix) element. The `types` argument specifies which apply `function` input arguments are [`matrices`](https://github.com/dstructs/matrix) and which are `number` primitives.
+Creates an apply `function` to apply a `function` to each [`matrix`](https://github.com/dstructs/matrix) element. The `types` argument defines the input argument types (either [`matrix`](https://github.com/dstructs/matrix) or `number` primitive).
 
 ``` javascript
 var mfcn = matrixfun.create( ['number','matrix'] );
