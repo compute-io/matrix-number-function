@@ -100,7 +100,7 @@ out =   5 5 5 5 5
 ===
 ### Factory
 
-The main exported `function` does __not__ make any assumptions regarding the number of input [`matrices`](https://github.com/dstructs/matrix) or `numbers`. To create a reusable [`matrix`](https://github.com/dstructs/matrix) function where the number of input [`matrices`](https://github.com/dstructs/matrix) and `numbers` is known, a factory method is provided.
+The main exported `function` does __not__ make any assumptions regarding the number of input [`matrices`](https://github.com/dstructs/matrix) or `numbers`. To create a reusable [`matrix`](https://github.com/dstructs/matrix) function where argument `types` known, a factory method is provided.
 
 
 <a name="matrixfun-factory"></a>
@@ -194,7 +194,7 @@ To facilitate using [`matrix`](https://github.com/dstructs/matrix) functions wit
 
 #### matrixfun.create( [fcn,] types )
 
-Creates an apply `function` to apply a `function` to each [`matrix`](https://github.com/dstructs/matrix) element. The `types` argument specifies which apply `function` input arguments are [`matrices`](https://github.com/dstructs/matrix) and which `number` primitives.
+Creates an apply `function` to apply a `function` to each [`matrix`](https://github.com/dstructs/matrix) element. The `types` argument specifies which apply `function` input arguments are [`matrices`](https://github.com/dstructs/matrix) and which are `number` primitives.
 
 ``` javascript
 var mfcn = matrixfun.create( ['number','matrix'] );
