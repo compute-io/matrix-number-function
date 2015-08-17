@@ -94,12 +94,10 @@ describe( 'apply', function tests() {
 		expect( foo ).to.throw( Error );
 		expect( bar ).to.throw( Error );
 		function foo() {
-			apply( noop, {
-				'out': true
-			});
+			apply( noop );
 		}
 		function bar() {
-			apply( noop, 'beep', {
+			apply( noop, matrix([5,5]), {
 				'out': true
 			});
 		}
