@@ -49,7 +49,6 @@ describe( 'apply', function tests() {
 	it( 'should throw an error if provided an options argument which is not an object', function test() {
 		var values = [
 			'5',
-			NaN,
 			true,
 			null,
 			undefined,
