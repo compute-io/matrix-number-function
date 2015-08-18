@@ -1,7 +1,7 @@
 {
   "name": "compute-matrix-number-function",
   "version": "0.0.0",
-  "description": "Applies a function to each matrix element by broadcasting numeric arguments.",
+  "description": "Applies a function to each matrix element while broadcasting numeric arguments.",
   "author": {
     "name": "Athan Reines",
     "email": "kgryte@gmail.com"

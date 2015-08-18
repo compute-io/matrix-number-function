@@ -2,7 +2,7 @@ Matrix-Number Function
 ===
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][codecov-image]][codecov-url] [![Dependencies][dependencies-image]][dependencies-url]
 
-> Applies a function to each [matrix](https://github.com/dstructs/matrix) element by broadcasting numeric arguments.
+> Applies a function to each [matrix](https://github.com/dstructs/matrix) element while broadcasting numeric arguments.
 
 
 ## Installation
@@ -23,7 +23,7 @@ var matrixfun = require( 'compute-matrix-number-function' );
 <a name="matrixfun"></a>
 #### matrixfun( fcn, ...value[, options] )
 
-Applies a `function` to each [`matrix`](https://github.com/dstructs/matrix) element by broadcasting numeric arguments. `value` arguments may be either [`matrices`](https://github.com/dstructs/matrix) or `number` primitives.
+Applies a `function` to each [`matrix`](https://github.com/dstructs/matrix) element while broadcasting numeric arguments. `value` arguments may be either [`matrices`](https://github.com/dstructs/matrix) or `number` primitives.
 
 ``` javascript
 var matrix = require( 'dstructs-matrix' );
